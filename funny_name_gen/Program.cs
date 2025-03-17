@@ -12,14 +12,14 @@ namespace funny_name_gen
         static string[] baseNames = { "Denis", "Georgi", "Ali" };
 
         
-        static string[] funnyWords = { "roshko", "dingleberry", "asfalt", "kopcheto", "chernata_dupka", "Snickers", "my left nut", "kosmat", "bezkosmest", "etiketa" };
+        static string[] funnyWords = { "roshko", "dingleberry", "asfalt", "kopcheto", "chernata dupka", "Snickers", "my left nut", "kosmat", "bezkosmest", "etiketa" };
 
         
         static string[] races = { "the black", "chiness", "negro", "white", "vasko" ,"ching chong","french trash"};
         static string[] heights = { "Short", "giga short", "ali baba", "Gigantic", "tall" ,"tree",};
-        static string[] weights = { "ali baba", "debel", "klechka", "average", "festivly plump","bones","big boned" };
-        static string[] appearances = { "Bearded", "homeless", "Bald", "drippy", "Moustached", "angal" };
-        static string[] moods = { "Jolly", "Grumpy", "Hyper", "Chill", "Mischievous", "Sad", "Angry" };
+        static string[] weights = { "ali baba", "debel", "klechka", "average", "festivly plump","bare bones","big boned" };
+        static string[] appearances = { "na 3 rakii", "homeless", "bald", "drippy", "tuff", "nadrusan", "izpran ot toka", "Angel","nedospan", "stabilen" };
+        static string[] moods = {"Hyper Active", "Chill", "Mischievous", "Sad", "Angry" };
 
         
         public static string GenerateRandomWord(int minLength, int maxLength)
