@@ -119,12 +119,47 @@ namespace funny_name_gen
 
         public static void Main(string[] args)
         {
-            
-            Console.Write("Enter how many names you want to generate: ");
-            int count = int.Parse(Console.ReadLine());
+             bool running = true;
 
-            
-            GenerateNames(count);
+ 
+ while (running)
+ {
+     Console.Clear();
+     Console.WriteLine("Welcome to the Funny Name Generator!");
+     Console.WriteLine("1. Start generating names");
+     Console.WriteLine("2. Exit");
+     Console.Write("Please enter your choice (1 or 2): ");
+     string userChoice = Console.ReadLine();
+
+     switch (userChoice)
+     {
+         case "1":
+             Console.Write("Enter how many names you want to generate: ");
+             int count;
+             if (int.TryParse(Console.ReadLine(), out count))
+             {
+                 GenerateNames(count);
+             }
+             else
+             {
+                 Console.WriteLine("Invalid input for the number of names. Please enter a valid number.");
+             }
+             break;
+
+         case "2":
+             Console.WriteLine("Exiting... Goodbye!");
+             running = false;
+             break;
+
+         default:
+             Console.WriteLine("Invalid choice! Please enter 1 or 2.");
+             break;
+     }
+
+     
+     Console.WriteLine("Press ENTER to continue...");
+     Console.ReadLine(); 
+ }
         }
     }
 }
