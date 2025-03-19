@@ -14,7 +14,7 @@
 - Gibberish instead of actual sentences (FIXED)
 - Generation Problem (FIXED)
 
-## Future Updates
+## Future Updates (never gonna happen :) )
 - Fixing ui
 - Expanding dictonary
 - More user friendly
