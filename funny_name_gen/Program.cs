@@ -27,11 +27,6 @@ namespace funny_name_gen
             int length = random.Next(minLength, maxLength + 1); 
             char[] chars = new char[length];
 
-            for (int i = 0; i < length; i++)
-            {
-                chars[i] = (char)random.Next('a', 'z' + 1);
-            }
-
             return new string(chars);
         }
 
