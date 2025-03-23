@@ -18,3 +18,4 @@
 - Fixing ui
 - Expanding dictonary
 - More user friendly
+- Add a feature to choose between how many words are going to be used instead of having the limit of 3 to 5 words
